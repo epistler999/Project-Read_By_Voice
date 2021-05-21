@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read By Voice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/b57db39b87.css">
+
+</head>
+<style>
+#grad1 {
+  background-color: white; 
+  background-image: linear-gradient(to bottom, #0099ff, #99ffcc); /* Standard syntax (must be last) */
+}
+</style>
+<body id=grad1>
+  <div style="background-image: url('');">
+
+
+    <style type="text/css">
+        body {
+            cursor: url(http://www.rw-designer.com/cursor-extern.php?id=24575);
+        }
+		button:hover {
+		background-color: black;
+		color:white;
+		}
+    </style>
+    <h1>WELCOME</h1>
+    <h1 id="h1"> This reads out all the selected text </h1>
+	
+	<p>This site is for visual impared person.</p>
+	
+	
+	
+    <p> Press TAB for keyboard navigation. Highlight me to read out all the selected text . Double click over a text to read only it or highlight a line to read the full lin .<br><br> </p>
+
+    
+
+    <button style="border-radius:50%; font-size:16px" id="button" onclick="myFunction()"> Toggle Contrast </button>
+	&nbsp
+    <button style="border-radius:50%; font-size:16px" id="button2" onclick="changeCursor()"> Change Cursor </button>
+    &nbsp
+	<button style="border-radius:50%; font-size:16px" id="button3" onclick="highlightLinks()"> Highlight Links </button>
+    
+    <br><br>
+    
+    
+
+    <a href="http://www.google.com" title="Google.com">Hover to know link. Clicking here will open google</a> <br><br>
+    <textarea placeholder="Enter Name Here" class="e">System will read the value of this placeholder.</textarea>
+    
+    <br><br>
+    
+    <p class="smalltext"> v3 - improvements * Speech pauses when another speech is played . * Keyboard navigation and speech for it added. * Cursor change function added. * Button pressed affect added . * Highlight link feature added. </p>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/jwarby/jquery-awesome-cursor/master/dist/jquery.awesome-cursor.min.js"></script>
+    <script type="text/javascript" src="reader.js"></script></div>
+</body>
+</html>
